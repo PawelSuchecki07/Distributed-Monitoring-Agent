@@ -14,12 +14,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 # Build executable
 add_executable(dma_agent
     src/main.cpp
-    src/agent.cpp
     src/collectors/system_metrics_collector.cpp
     src/aggregator.cpp
 )
-
-# Include directories for headers
-target_include_directories(dma_agent PRIVATE include)
 
 

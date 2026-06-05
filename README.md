@@ -18,6 +18,8 @@ The project uses a modular collector pattern:
 ```bash
 cd /home/ubuntu/projects/DMA
 ./build.sh
+cd /build
+./dma_agent
 ```
 
 ## Status

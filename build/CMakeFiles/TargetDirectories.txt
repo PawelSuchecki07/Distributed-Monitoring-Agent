@@ -1,3 +1,0 @@
-/home/ubuntu/projects/DMA/build/CMakeFiles/dma_agent.dir
-/home/ubuntu/projects/DMA/build/CMakeFiles/edit_cache.dir
-/home/ubuntu/projects/DMA/build/CMakeFiles/rebuild_cache.dir

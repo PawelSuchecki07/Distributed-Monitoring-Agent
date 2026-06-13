@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/dma_agent.dir/link.d CMakeFiles/dma_agent.dir/src/main.cpp.o CMakeFiles/dma_agent.dir/src/collectors/system_metrics_collector.cpp.o CMakeFiles/dma_agent.dir/src/aggregator.cpp.o -o dma_agent

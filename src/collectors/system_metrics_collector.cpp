@@ -2,6 +2,7 @@
 #include "system_metrics_collector.h"
 #include <sstream>
 #include <sys/statvfs.h>
+#include <unistd.h>
 
 std::string SMCollector::collect(){
     std::string cpu = getCPU();

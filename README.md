@@ -22,16 +22,6 @@ cd /build
 ./dma_agent
 ```
 
-## Status
-
-**Phase 1 (Core) — In Progress:**
-- ✅ Collector interface
-- ✅ SystemMetricsCollector (reads /proc/stat, /proc/meminfo, statvfs)
-- ✅ Aggregator (runs collectors, formats JSON)
-- ❌ LogsCollector (planned)
-- ❌ HealthCheckCollector (planned)
-- ❌ Main agent loop (planned)
-
 ## Dependencies
 
 - C++17
@@ -39,8 +29,3 @@ cd /build
 - nlohmann/json (auto-fetched)
 - Linux (for /proc interface)
 
-## Next Steps
-
-1. Implement remaining collectors
-2. Add main orchestration loop
-3. Implement health checks and log parsing
